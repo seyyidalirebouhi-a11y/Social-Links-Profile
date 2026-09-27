@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+}
+
+/* public style */
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* body start */
+body {
+    font-weight: 300;
+    max-width: 1440px;
+    min-height: 50vh;
+    font-family: "Figtree", sans-serif;
+    Font-size: 14px;
+    background-color: var(--Grey-900);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* body end */
+/* main-box start */
+
+main .box {
+    border-radius: 10px;
+    min-width: 400px;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--Grey-800);
+}
+
+/* main-box end */
+
+/* main-box-img start */
+main .box img {
+    margin: 35px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* main-box-img  end */
+/* main-box-h1 start */
+main .box h1 {
+    font-size: 30px;
+    margin: 0 20px;
+    font-weight: 400;
+    color: var(--White);
+}
+
+/* main-box-h1  end */
+/* main-box-h3 start */
+main .box h3 {
+    font-size: 16px;
+    margin: 10px 20px;
+    font-weight: 400;
+    color: var(--Green);
+}
+
+/* main-box-h3  end */
+
+
+/* main-box-p start */
+main .box p {
+    font-size: 14px;
+    margin: 20px;
+    font-weight: 400;
+    color: var(--White);
+}
+
+/* main-box-p  end */
+/* main-box-ul start */
+main .box ul {
+    margin-left:-20px;
+    margin-right:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* main-box-ul  end */
+/* main-box-ul-li start */
+main .box ul li {
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px 10px 10px 10px;
+    background-color: var(--Grey-700);
+    width: 350px;
+    padding: 15px;
+    text-align: center;
+}
+
+main .box ul li a {
+    color: var(--White);
+}
+
+/* main-box-ul-li end */
